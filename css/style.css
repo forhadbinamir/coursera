@@ -1,0 +1,160 @@
+
+/* Fonts: google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+/* Common and Utilities styles   */
+
+body{
+    margin:0;
+    padding: 0;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.half-width{
+    width: 50%;
+}
+.container{
+    width: 90%;
+    margin:auto;
+}
+
+/* Start header area style with nav menu */
+
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E0E0E0;
+    
+}
+.main-menu .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 127px;
+    height: 32px;
+    padding: 0 20px 0 25px;
+}
+.logo .btn-explore{
+    color: #fff;
+    background-color: #0056d2;
+    margin-right: 5px;
+    font-weight: 700;
+    padding: 8px 12px;
+    border: 1px solid #0056d2;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.logo a:hover{
+    background-color: ivory;
+    color:#000;
+    border: 1px solid #E0E0E0;
+    border-radius: 3px;
+}
+.logo input{
+    padding: 8px 16px;
+    border-right: none;
+    border: 1px solid #E0E0E0
+}
+.logo .fa-search{
+    color:#fff;
+    background-color: #0056d2;
+    padding: 8px 12px;
+    border-radius: 3px;
+    /* font-weight: 200; */
+    
+}
+.main-menu .menu li{
+    list-style: none;
+    margin-right: 15px;
+}
+.main-menu .menu li{
+    font-size: 14px;
+    color:#000;
+}
+.main-menu .menu li:hover{
+    color: #0056d2;
+    text-decoration: underline;
+}
+.menu .btn-1{
+    color: #0056d2;
+    font-size: 14px;
+    background-color: #fff;
+    border:none;
+    padding: 3px 12px;
+}
+.menu .btn-1:hover{
+    text-decoration: underline;
+}
+.menu .btn-2{
+    color: #fff;
+    font-size: 14px;
+    background-color: #0056d2;
+    margin-right: 25px;
+    padding: 8px 20px;
+    font-weight: 600;
+    border:none;
+    border-radius: 3px;
+}
+.menu .btn-2:hover{
+    background-color: rgb(4, 4, 109);
+}
+
+/* End header area style with nav menu */
+
+/* Start Learn without Limits */
+
+.learn-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.learn-img img{
+    width: 459px;
+    height: 497px;
+}
+.learn h1{
+    color: #1f1f1f;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+}
+.learn p{
+    font-size: 20px;
+    line-height: 28px;
+    color:1f1f1f;
+    font-weight: 400px;
+}
+.learn .learn-btn-1{
+    color: #ffffff;
+    background-color: #0056d2;
+    padding: 25px 62px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 700px;
+    border: 3px solid #0056d2;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.learn .learn-btn-2{
+    color: #0056d2;
+    padding: 25px 62px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 700px;
+    border: 3px solid #0056d2;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+}
